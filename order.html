@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order | Fresh Food</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+<body>
+    <header class="header">
+        <a href="index.html"><img class="logo" src="images/logo.png" alt="fresh food logo"/>  </a>
+        <button id="menuBtn" class="menu-btn"><i class="fa-solid fa-bars"></i></button>
+        <nav class="nav" id="navLinks">
+            <a href="index.html" class="active">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="order.html">Order</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section">
+            <h2 class="title">Order Your <span class="red">Food</span></h2>
+            <div class="form-box">
+                <img src="images/easy.png" alt="order">
+                <form id="myForm" class="form">
+                    <input type="text" id="name" placeholder="Enter Name">
+                    <input type="email" id="email" placeholder="Enter Email">
+                    <input type="tel" id="phone" placeholder="Enter Phone">
+                    <textarea id="address" rows="5" placeholder="Enter Address"></textarea>
+                    <button type="submit" class="btn">Order Now</button>
+                    <p id="msg"></p>
+                </form>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer class="footer">
+        <img src="images/logo.png" alt="logo">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <div class="social">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <p>&copy;2026 Fresh Food. All Rights Reserved.</p>
+    </footer>
+
+        <script src="js/script.js"></script>
+        <script src="js/form.js"></script>
+
+</body>
+</html>
